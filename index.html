@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Poke' Plush Landing Page</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="product landing page for freeCodeCamp responsive web design certificate" />
+    <meta name="keywords" content="freeCodeCamp, product landing page, responsive web design certificate" />
+    <meta name="author" content="Josue" />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./dist/styles.min.css">
+</head>
+
+<body>
+
+    <!-- Nav -->
+    <header id="header" class="sticky-top bg-white">
+        <nav id="nav-bar" class="navbar navbar-expand-md">
+            <div class="container-fluid ">
+                <!-- Brand -->
+                <a class="navbar-brand fs-2" href="index.html">
+                    <img id="header-img" src="./assets/pokeball-pokemon-svgrepo-com.svg" alt="brand pokeball logo"
+                        class="d-inline-block align-text-center">
+                    Poke' Plush
+                </a>
+                <!-- Hamburger -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#section"
+                    aria-controls="section" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="section">
+                    <div class="navbar-nav text-white fs-4">
+                        <a class="nav-link" href="#features">Features</a>
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                        <a class="nav-link" href="#newsletter">Newsletter</a>
+                    </div>
+                </div>
+                <div id="social-media" class="d-none d-md-block">
+                    <a href=""><img src="./assets/twitter.svg" alt="twitter/x logo"></a>
+                    <a href=""><img src="./assets/facebook.svg" alt="facebook logo"></a>
+                    <a href=""><img src="./assets/instagram.svg" alt="instagram logo"></a>
+                    <a href=""><img src="./assets/pinterest.svg" alt="pinterest logo"></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Only for submission, comment out the other form and use this one, too much code for fcc? -->
+        <!-- <form id="form" class="mt-4" action="https://www.freecodecamp.com/email-submit">
+            <input id="email" type="email" name="email" placeholder="Enter your email address" class="py-1"
+                required>
+            <br>
+            <input id="submit" type="submit" class="button is-warning is-small has-text-weight-bold mt-4"
+                value="Get Started">
+        </form> -->
+
+        <!-- Hero -->
+        <section class="">
+            <div class="container-fluid">
+                <div class="row text-center justify-content-center">
+                    <div class="col-6">
+                        <h1>Handcrafted Masterpeices</h1>
+                        <p class="lead">Of your favorite <span class="text-danger fw-bold">Kanto</span> starter</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section id="features" class="bg-light">
+            <div class="container-fluid">
+                <!-- Header -->
+                <header class="row text-center justify-content-center">
+                    <div class="col-6">
+                        <h2>Features</h2>
+                    </div>
+                </header>
+                <!-- Softness -->
+                <div class="row justify-content-center pt-5">
+                    <div class="col-8 d-flex justify-content-center bg-white border border-3 border-warning py-3">
+                        <img aria-hidden="true" class="me-3" src="./assets/heart-eyes.svg"
+                            alt="smily face with heart eyes">
+                        <div>
+                            <h3 class="fw-bold">Softness</h3>
+                            <p>Unparalleled softness and comfort of our plush dolls, crafted from carefully selected
+                                premium materials to provide a huggable experience like no other.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Durability -->
+                <div class="row justify-content-center pt-5">
+                    <div class="col-8 d-flex justify-content-center bg-white border border-3 border-success py-3">
+                        <img aria-hidden="true" class="me-3" src="./assets/shield.svg" alt="shield with plus sign">
+                        <div>
+                            <h3 class="fw-bold">Durability</h3>
+                            <p>Our plushes are designed to last, thanks to the superior quality of premium materials
+                                that maintain their integrity even through hours of imaginative play.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Hypoallergenic -->
+                <div class="row justify-content-center pt-5">
+                    <div class="col-8 d-flex justify-content-center bg-white border border-3 border-primary py-3">
+                        <img aria-hidden="true" class="me-3" src="./assets/rx.svg" alt="rx prescription">
+                        <div>
+                            <h3 class="fw-bold">Hypoallergenic</h3>
+                            <p>
+                                Enjoy peace of mind knowing that our plushes are made from hypoallergenic premium
+                                materials, making them safe and enjoyable for even the most sensitive skin.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing -->
+        <section id="pricing" class="">
+            <div class="container-fluid">
+                <!-- Header -->
+                <header class="row text-center justify-content-center">
+                    <div class="col-6">
+                        <h2>Choose Your Starter</h2>
+                    </div>
+                </header>
+                <!-- iFrame -->
+                <div class="row justify-content-center pt-5">
+                    <div class="col-sm-10 col-md-8">
+                        <div class="ratio ratio-16x9">
+                            <iframe id="video" src="https://www.youtube.com/embed/F_8htiBjTCY?si=s2wzQ4-TVaCSOPKb"
+                                title="YouTube video player"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cards -->
+                <div class="row justify-content-center pt-5">
+                    <div class="col-md-7 col-lg-3 card-div">
+                        <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/81tshL1jB7L._AC_SL1500_.jpg"
+                                class="card-img-top img-fluid" alt="bulbasaur plush" style="max-height: 358.3px;">
+                            <div class="card-body bg-light">
+                                <h5 class="card-title">#0001 Bulbasaur</h5>
+                                <h6 class="mb-2">8" Bulbasaur Plush - $29.99</h6>
+                                <p class="card-text">
+                                    It bears the seed of a plant on its back from birth. The
+                                    seed slowly develops. Researchers are unsure whether to classify Bulbasaur as a
+                                    plant or animal. Bulbasaur are extremely tough and very difficult to capture in the
+                                    wild.
+                                </p>
+                                <a href="https://www.amazon.com/Pok%C3%A9mon-Bulbasaur-Plush-Stuffed-Animal/dp/B07K4RC7Y5?th=1"
+                                    target="_blank" class="btn btn-danger d-block">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-lg-3 card-div">
+                        <div class="card">
+                            <img src="https://m.media-amazon.com/images/I/81OELpk6UGL._AC_SL1500_.jpg"
+                                class="card-img-top img-fluid" alt="charmander plush" style="max-height: 358.3px;">
+                            <div class="card-body bg-light">
+                                <h5 class="card-title">#0004 Charmander</h5>
+                                <h6 class="mb-2">8" Charmander Plush - $29.99</h6>
+                                <p class="card-text">
+                                    The flame that burns at the tip of its tail is an indication of its
+                                    emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon
+                                    becomes enraged, the flame burns fiercely.
+                                </p>
+                                <a href="https://www.amazon.com/Pok%C3%A9mon-Charmander-Plush-Stuffed-Animal/dp/B07K4V938H/ref=pd_bxgy_img_sccl_1/134-9693935-3066732?pd_rd_w=YgaAD&content-id=amzn1.sym.26a5c67f-1a30-486b-bb90-b523ad38d5a0&pf_rd_p=26a5c67f-1a30-486b-bb90-b523ad38d5a0&pf_rd_r=5CF26JJ1543CXBSMGBTS&pd_rd_wg=EdHHL&pd_rd_r=be335386-79f3-4c39-b491-1cd9063cf6ad&pd_rd_i=B07K4V938H&psc=1"
+                                    target="_blank" class="btn btn-danger d-block">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-lg-3 card-div">
+                        <div class="card">
+                            <img id="squirtle" src="https://m.media-amazon.com/images/I/81hUjUf9WnL._AC_SL1500_.jpg"
+                                class="card-img-top img-fluid" alt="squirtle plush" style="max-height: 358.3px;">
+                            <div class="card-body bg-light">
+                                <h5 class="card-title">#0007 Squirtle</h5>
+                                <h6 class="mb-2">8" Squirtle Plush - $29.99</h6>
+                                <p class="card-text">
+                                    Withdraws into its shell when in danger. Its shell is not just for protection. Its
+                                    rounded shape and the grooves on its surface minimize resistance in water, enabling
+                                    Squirtle to swim at high speeds
+                                </p>
+                                <a href="https://www.amazon.com/Pok%C3%A9mon-Squirtle-Plush-Officially-Licensed/dp/B0BJS24RFT/ref=pd_bxgy_img_sccl_2/134-9693935-3066732?pd_rd_w=o0XPu&content-id=amzn1.sym.26a5c67f-1a30-486b-bb90-b523ad38d5a0&pf_rd_p=26a5c67f-1a30-486b-bb90-b523ad38d5a0&pf_rd_r=Z0Q04V2KE5EREM1NDAZA&pd_rd_wg=tFs3m&pd_rd_r=10462e9f-cccd-46f8-8bd4-372b494e4b0a&pd_rd_i=B0BJS24RFT&psc=1"
+                                    target="_blank" class="btn btn-danger d-block">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newletter -->
+        <section id="newsletter" class="bg-light">
+            <div class="container-fluid">
+                <!-- Header -->
+                <header class="row text-center justify-content-center">
+                    <div class="col-6">
+                        <h2>Sign up for our Newsletter</h2>
+                    </div>
+                </header>
+                <div class="row justify-content-center pt-5">
+                    <div class="col-6 bg-white border border-dark border-1 rounded-2 p-3">
+                        <form action="https://www.freecodecamp.com/email-submit" id="form">
+                            <!-- Name -->
+                            <label for="name" class="form-label">Name</label>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="person"><img aria-hidden="true"
+                                        src="./assets/person.svg" alt="person in a square"></span>
+                                <input id="name" name="name" type="text" class="" placeholder="Gary Oak"
+                                    aria-label="Name" required>
+                            </div>
+                            <!-- Email -->
+                            <label for="email" class="form-label">Email</label>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="email"><img aria-hidden="true"
+                                        src="./assets/envelope.svg" alt="envelope with @"></span>
+                                <input id="email" name="email" type="email" class="" placeholder="garyoak@example.com"
+                                    aria-label="Email" required>
+                            </div>
+                            <!-- Textarea -->
+                            <label for="textarea" class="form-label">Send us a Message</label>
+                            <div class="input-group mb-4">
+                                <span class="input-group-text"><img aria-hidden="true" src="./assets/chat.svg"
+                                        alt="chat bubble with quotes"></span>
+                                <textarea id="textarea" class="form-control focus-ring focus-ring-danger"
+                                    aria-label="With textarea"></textarea>
+                            </div>
+                            <!-- Submit -->
+                            <div class="d-grid">
+                                <input id="submit" type="submit" class="btn btn-danger" value="Submit"></input>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="py-3 bg-danger text-white">
+        <div class="row justify-content-center">
+            <div class="col-6 text-center">
+                <p class="my-auto">Copyright &copy; Pokemon Plush <span id="date"></span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+
+    <script>
+        // TODO: section padding
+        document.addEventListener("DOMContentLoaded", () => {
+            socialMedia();
+            smoothScroll();
+            sectionClasses();
+            inputClasses();
+            getYear();
+        })
+
+        // social media image margins
+        const socialMedia = () => {
+            const imgElements = document.querySelectorAll("#social-media img");
+            imgElements.forEach((img, index) => {
+                // first img gets margin x
+                if (index === 0) {
+                    img.classList.add("mx-3");
+                    return;
+                }
+                // all imgs except the first, and last one gets margin end
+                if (index < imgElements.length - 1)
+                    img.classList.add("me-3");
+            });
+        }
+
+        // smooth scroll with sticky nav
+        const smoothScroll = () => {
+            // get nav-links
+            const aElements = document.querySelectorAll(".nav-link");
+            aElements.forEach((link) => {
+                link.onclick = (e) => {
+                    // prevent default
+                    e.preventDefault();
+                    // get href attribute - #
+                    const href = e.target.getAttribute("href").slice(1);
+                    // find element that matches the href
+                    const scrollElement = document.getElementById(href);
+                    // calculate nav height
+                    const headerElement = document.getElementById("header");
+                    const headerHeight = headerElement.getBoundingClientRect().height;
+                    // set position to scroll to
+                    const position = scrollElement.offsetTop - headerHeight;
+
+                    window.scrollTo({
+                        left: 0,
+                        top: position,
+                    });
+
+                    // for mobile
+                    // get div that shows nav links
+                    const divElement = document.querySelector("#section");
+                    // if div is showing, then close it
+                    if (divElement.classList.contains("show"))
+                        divElement.classList.toggle("show");
+                };
+            });
+        }
+
+        // section classes: py-5
+        const sectionClasses = () => {
+            const sectionElements = Array.from(document.getElementsByTagName("section"));
+            sectionElements.forEach((section) => section.classList.add("py-5"));
+        }
+
+        // input classes: form-control focus-ring focus-ring-danger rounded-2
+        const inputClasses = () => {
+            const inputElements = Array.from(document.getElementsByTagName("input"));
+            inputElements.forEach((input) => {
+                input.classList.add("form-control", "focus-ring", "focus-ring-danger");
+            });
+        }
+
+        // get year for footer
+        const getYear = () => {
+            const spanElement = document.getElementById("date");
+            spanElement.textContent = new Date().getFullYear();
+        }
+
+
+    </script>
+</body>
+
+</html>

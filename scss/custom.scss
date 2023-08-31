@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+.collapse {
+
+    @media screen and (min-width: 768px) {
+        background-color: rgb(220, 53, 69);
+
+        .nav-link {
+            color: white;
+        }
+    }
+}
+
+// social media images
+#social-media {
+
+    img:hover {
+        filter: grayscale(100%) brightness(0);
+    }
+}
+
+// card div margin bottom
+.card-div {
+
+    @media screen and (max-width: 991px) {
+        margin-bottom: 3rem;
+    }
+}
+
+// squirtle card height fix
+#squirtle {
+    
+    @media screen and (min-width: 768px) {
+        height: 358.3px;
+    }
+}
+
+// input :focus border color
+$input-focus-border-color: rgba(220, 53, 70, 0.5);
+
+// bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
